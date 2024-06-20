@@ -1,0 +1,32 @@
+#board{
+    height: 300px;
+    width: 300px; 
+    border: solid 2px black;
+    padding: 20px;
+    display: grid;
+    gap: 5px;
+    
+}
+.row{
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 30%;
+}
+.cell{
+    border: solid 1px black;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    min-height: 80px;
+    transition: all 0.3s ease; 
+}
+
+.cell:hover{
+    transform: scale(1.05);
+}
+ 
+
+
+
